@@ -1,0 +1,37 @@
+# DataSource Config
+server:
+  port: 8081
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+fan:
+  jwt:
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    expire: 604800
+    header: Authorization
+##
+spring:
+  redis:
+    database: 0
+    host: 1.15.141.72
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-idle: 8
+        max-wait: -1
+        max-active: 8
+        min-idle: 0
+    timeout: 1000
+
+#shiro-redis:
+#  enabled: true
+#  redis-manager:
+#    host:  127.0.0.1:6379
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/techshare?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: 123456
+

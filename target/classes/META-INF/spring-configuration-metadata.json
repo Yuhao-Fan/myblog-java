@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "fan.jwt",
+      "type": "com.fan.util.JwtUtils",
+      "sourceType": "com.fan.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fan.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.fan.util.JwtUtils"
+    },
+    {
+      "name": "fan.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.fan.util.JwtUtils"
+    },
+    {
+      "name": "fan.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.fan.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
