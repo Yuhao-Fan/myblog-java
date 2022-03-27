@@ -8,7 +8,7 @@ import com.fan.entity.Blog;
  *  服务类
  * </p>
  *
- * @author 关注公众号：MarkerHub
+ *  
  * @since 2021-01-22
  */
 public interface BlogService extends IService<Blog> {

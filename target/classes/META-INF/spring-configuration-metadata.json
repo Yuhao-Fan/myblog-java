@@ -10,7 +10,8 @@
     {
       "name": "fan.jwt.expire",
       "type": "java.lang.Long",
-      "sourceType": "com.fan.util.JwtUtils"
+      "sourceType": "com.fan.util.JwtUtils",
+      "defaultValue": 0
     },
     {
       "name": "fan.jwt.header",

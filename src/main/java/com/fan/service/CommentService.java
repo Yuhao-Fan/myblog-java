@@ -11,7 +11,7 @@ import java.util.Map;
  *  服务类
  * </p>
  *
- * @author 关注公众号：MarkerHub
+ *  
  * @since 2021-01-22
  */
 public interface CommentService extends IService<Comment> {
